@@ -32,6 +32,7 @@ div {
 h1 {
     text-align: center;
     margin: 20px;
+    font-family:'Courier New', Courier, monospace;
 }
 p {
   padding: 3px;
@@ -77,4 +78,13 @@ p {
     margin: 15px;
     background-color: grey;
     overflow: hidden;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+   #box1 {
+    float: left;
+    }
+    #box2 {
+       float: left;
+    }
 }
